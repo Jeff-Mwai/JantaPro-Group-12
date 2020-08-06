@@ -1,16 +1,18 @@
 body{
     padding:0;
     margin:0;
-    background-position: center;
+    background-size: cover;
+    background: url(https://imgur.com/FDi48RW.jpeg);
     font-family: sans-serif;
     text-align: center;
 }
 .contact-form{
     width: 100%;
     max-width: 1200px;
-    background:white;
+    background:burlywood;
     text-align: center;
     box-shadow: 0 0 20px #000000;
+    position: unset;
 }
 .contact-form h1{
     font-weight: 200;
@@ -169,7 +171,7 @@ display: flex;
     margin-left: 15px;
     transition: all .3s;
 }
-.footer .footer-content .contact-form .contact-input{
+.footer .footer-content .contacts-form .contact-input{
     background: hsl(0, 0%, 15%);
     color:hsl(0, 1%, 74%);
     margin-bottom: 10px;
@@ -177,7 +179,7 @@ display: flex;
     padding:.9em 1.4rem;
     border: none;
 }
-.footer .footer-content .contact-form .contact-input:focus{
+.footer .footer-content .contacts-form .contact-input:focus{
     background: rgb(12, 12, 12);
 }
 .btn{
