@@ -8,30 +8,78 @@ img{
 }
 #navigation-bar{
     display:flex;
-    background-color:rgb(84, 86, 88);
+    background-color:rgb(8, 65, 8);
     font-size-adjust: 10px;
     color:rgb(255, 255, 255);
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 #navigate{
-    display:flex;
+     text-align: center;
+     
+     
 }
 #navigate ul{
 display: flex;
-padding-right: unset;
+padding-right: -60px;
+
 }
+
+
 #navigate ul li{
     display: flex;
-    padding: 20px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+}
+.active, #navigate ul li:hover{
+    background-color: rgb(12, 143, 34);
+    border-radius: 5px;
+}
+#navigate .fa{
+    margin-right: 8px;
 }
 #navigate ul li a{
     color:white
+        
 }
 #navigate ul li a:hover{
-    color:red;
+    color:rgb(123, 230, 123);
+}
+
+.sub-navigate-1{
+    display: none;
+}
+#navigate ul li:hover .sub-navigate-1{
+    display: block;
+    position: absolute;
+    background-color:rgb(12, 143, 34);
+    margin-top: 36px;
+    margin-left: -8px;
+    border-radius: 5px;
+}
+#navigate ul li:hover .sub-navigate-1 ul{
+    display: block;
+    margin: 10px;
+}
+#navigate ul li:hover .sub-navigate-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#navigate ul li:hover .sub-navigate-1 ul li:last-child{
+    border-bottom: none;
+}
+#navigate ul li:hover .sub-navigate-1 ul li a:hover{
+    color:rgb(123, 230, 123);
+}
+#logo img{
+    border-radius: 75%;
+    
 }
 .main{
     background:url("https://i.imgur.com/3L9HGIH.jpg");
