@@ -3,9 +3,6 @@
     padding: 0;
     background-image: url("https://imgur.com/h1COzbn");
 }
-img{
-    height: 100px;
-}
 #navigation-bar{
     display:flex;
     background-color:rgb(8, 65, 8);
@@ -187,7 +184,7 @@ display: flex;
 }
 .footer .footer-content h1,
 .footer .footer-content h2{
-    color:whit;
+    color:white;
 }
 .footer .footer-content .about h1 span{
     color:rgb(34, 153, 34);
