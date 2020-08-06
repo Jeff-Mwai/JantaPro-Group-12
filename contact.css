@@ -1,12 +1,61 @@
-
-.main{
-    background-image: url("https://i.imgur.com/bgLeC8e.jpg"); 
+body{
+    padding:0;
+    margin:0;
+    background:linear-gradient(rgba 0, 0, 50, 0.5), (rgba 0, 0, 50, 0.5), url(photo00.jpeg);
     background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+.contact-form{
+    width: 100%;
+    background: #f1f1f1;
+    top: 81px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000;
+}
+.contact-form h1{
+    font-weight: 200;
+    margin-top: 0;
+}
+.txtb{
+    margin:8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    columns: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn{
+    display: block;
+    background: #9b599b;
+    padding: 14px 0;
+    color: honeydew;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%
 }
 
 #navigation-bar{
     display:flex;
-    background-color:rgb(84, 86, 88);
+    background-color:gray;
     font-size-adjust: 10px;
     color:rgb(255, 255, 255);
     flex-direction: row;
@@ -31,47 +80,9 @@ padding-right: unset;
 #navigate ul li a:hover{
     color:red;
 }
-h1{
-    height: 73px;
-    width: 180px;
-    color: white;
-    
-}
-#column{
-    display: flex;
-    left: 500;
-    padding: 40px;
-    margin: auto;
-    font-size: 20px;
-    border-radius: 2px white;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-}
-#column td{
-    padding: 5px;
-}
-#row :after{
-    display: table;
-    clear: both;
-    padding:40px;
-    margin: 49px;
-
-}
-.one {
-    left: 15%;
-
-}
-h2{
-    text-decoration: none;
-    background: rgba(0,0,0,0.5);
-}
-h2 a{
-    text-decoration: none;
-}
-
 .footer{
     background: #222224;
-    color: #d3d3d3;
+    color: #D3D3D3;
     height: 400px;
     position: relative;
 }
@@ -91,7 +102,6 @@ display: flex;
 .footer .footer-content .about h1 span{
     color:rgb(34, 153, 34);
 }
-
 .footer .footer-content .about .contact span{
     display: block;
     font-size: 1.1em;
@@ -114,7 +124,6 @@ display: flex;
     color:white;
     transition: all .3s;
 }
-
 .footer .footer-content .links ul a{
     display: block;
     margin-bottom: 10px;
@@ -126,7 +135,6 @@ display: flex;
     margin-left: 15px;
     transition: all .3s;
 }
-
 .footer .footer-content .contact-form .contact-input{
     background: hsl(0, 0%, 15%);
     color:hsl(0, 1%, 74%);
@@ -147,10 +155,9 @@ display: flex;
     color: white!important;
     background: rgb(15, 71, 15);
 }
-
 .footer .footer-bottom{
 background:#19191a;
-color: #928d8d;
+color: #928D8D;
 height:50px;
 width:100%;
 text-align:center;
@@ -159,5 +166,4 @@ bottom: 0px;
 left:0px;
 padding-top: 20px;
 }
-
 
