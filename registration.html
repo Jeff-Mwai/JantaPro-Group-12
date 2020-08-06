@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JantaPro</title>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
     <script src="https://kit.fontawesome.com/c4064f8e68.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="employees.css">
-</head>
 
+</head>
 <body>
+    
     <div id="navigation-bar">
-        <div id="logo"><img src="https://i.imgur.com/lYDOpUz.jpg" height="100px" alt="JantaPro logo"></div>
+        <div id="logo">
+            <img src="https://i.imgur.com/lYDOpUz.jpg" height="100px"width="150px" alt="JantaPro logo">
+        </div>
         <div id="navigate">
             <ul >
                 <li>
@@ -21,38 +23,45 @@
                     <a href="#about_us">About us</a>
                 </li>
                 <li>
-                    <a href="registration.html">Register/Log-in</a>
+                    <a href="#">Register/Log-in</a>
                 </li>
                 <li>
-                    <a href="#">Search jobs</a>
+                    <a href="employees.html">Search jobs</a>
                 </li>
                 <li>
                   <a href="#">Contact us</a>
               </li>
             </ul>
         </div>
-    </div>
+    </div>  
     <div class="main">
+    <h1>Registration Form</h1>
+
+       <div  class="register">
+       <h2>Register Here</h2>
+    <form method="post" id="register" action=""></form>.
     
-        <div>
-            <h1>Job Description</h1>
+    <label>First Name </label><br>
+    <input type="text" name="Fname" id="name" placeholder="Enter Your First Name"><br>
+    <label>Second Name </label><br>
+    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name"><br>
+    <label>Mobile Number </label><br>
+    <input type="number" name="Mnum" id="num" placeholder="Enter Your Mobile Number"><br>
+    <label>Email </label><br>
+    <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+    <label>Password</label><br>
+    <input type="password" name="pass" id="pass" placeholder="Enter Your Password"><br>
+    <label>Re-enter your Password</label><br>
+    <input type="password" name="pass" id="pass" placeholder="Re-enter Your Password"><br>
+    <input type="radio" name="male" id="male"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
+    <input type="radio" name="male" id="male"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;<br>
+    <label>Job Description </label><br>
+    <textarea id="JobDescription" name="Job"></textarea>
+    <input type="submit" value="submit" id="sub">
+
+
         </div>
-        <div class="column">
-            <div class="row">
-                <p>Masons  <br><i class="fas fa-toolbox" height="18px"></i></p>
-                <p>Plumbers<br><i class="fas fa-toilet" height="18px"></i></p>
-                <p>Painters<br><i class="fas fa-broom" height="18px"></i></p>
-            </div>
-            <div class="row">   
-                <p>Deliveries<br><i class="fas fa-truck" height="18px"></i></p>
-                <p>Electrician<br><i class="fas fa-bolt" height="18px"></i></p>
-                <p>Gardeners and Cleaners<br><i class="fas fa-broom" height="18px"></i></p>
-            </div>
-        </div>
-            <div id="go">
-                <h2><a a href="registration.html">Register Here</a></h2>
-                
-            </div>
+
     </div>
     <div class="footer">
         <div class="footer-content">
@@ -103,5 +112,4 @@
          </div>
       </div>
 </body>
-
 </html>
