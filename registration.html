@@ -15,17 +15,17 @@
         <div id="navigate">
             <ul >
                 <li class="active">
-                    <a href="#home"><i class="fa fa-home"></i>Home</a>
+                    <a href="index.html"><i class="fa fa-home"></i>Home</a>
                 </li>
                 <li>
-                    <a href="#about_us"><i class="fa fa-users"></i>About us</a>
+                    <a href="index.html"><i class="fa fa-users"></i>About us</a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fas fa-sign-in-alt"></i> Register/Log-in</a>
                       <div class="sub-navigate-1">
                            <ul>
                                <li><a href="employers.html">Employer</a></li>
-                               <li><a href="employees.html">Jobseeker</a></li>
+                               <li><a href="registration.html">Jobseeker</a></li>
                            </ul>
                       </div>
                 </li>
@@ -40,30 +40,43 @@
     </div>
     <div class="main">
     <h1>Join Now!</h1>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+           <span class="close">&times;</span>
+           <p>Do you want fill a registration to our website?</p>
+           <button id="yes" class="modal-btn">
+               Yes
+           </button>
+           <button id="cancel" class="modal-btn">
+               Cancel
+           </button>
+       </div>
+   </div>
 
        <div  class="register">
        <h2>Personal Information</h2>
     <form method="post" id="register" action =""></form>.
     
     <label>First Name </label><br>
-    <input type="text" name="Fname" id="name" placeholder="Enter Your First Name"><br>
+    <input type="text" name="Fname" id="name" placeholder="Enter Your First Name" required><br>
     <label>Second Name </label><br>
-    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name"><br>
+    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name" required><br>
     <label>Location</label><br>
-    <input type="text" name="lname" id="name" placeholder="Enter Your Location"><br>
+    <input type="text" name="lname" id="name" placeholder="Enter Your Location" required><br>
     <label>Mobile Number </label><br>
-    <input type="number" name="Mnum" id="num" placeholder="Enter Your Mobile Number"><br>
+    <input type="number" name="Mnum" id="num" placeholder="Enter Your Mobile Number" required><br>
     <label>Email </label><br>
-    <input type="email" name="email" id="email" placeholder="Enter Your Email"><br>
+    <input type="email" name="email" id="email" placeholder="Enter Your Email" required><br>
     <label>Password</label><br>
-    <input type="password" name="pass" id="pass" placeholder="Enter Your Password"><br>
+    <input type="password" name="pass" id="pass" placeholder="Enter Your Password" required><br>
     <label>Re-enter your Password</label><br>
-    <input type="password" name="pass" id="pass" placeholder="Re-enter Your Password"><br>
+    <input type="password" name="pass" id="pass" placeholder="Re-enter Your Password" required><br>
     <input type="radio" name="male" id="male"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
     <input type="radio" name="male" id="male"><span id="female">&nbsp; Female</span>&nbsp;&nbsp;<br>
     <label>Job Description </label><br>
     <textarea id="JobDescription" name="Job"></textarea>
-    <input type="submit" value="submit" id="sub">
+    <input type="submit" value="submit" id="sub"><a href="employees.html">Register</a>
+    
 
 
        </div>
@@ -83,7 +96,7 @@
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fas fa-map-marker-alt"></i></a>
+                    <a href="https://goo.gl/maps/3yd9cCAU5iduuzHaA"><i class="fab fas fa-map-marker-alt"></i></a>
                 </div>
             </div>
   
