@@ -3,7 +3,6 @@ body{
     margin:0;
     background-size: cover;
     background: url(https://imgur.com/FDi48RW.jpeg);
-    font-family: sans-serif;
     text-align: center;
 }
 .contact-form{
@@ -182,12 +181,12 @@ display: flex;
 .footer .footer-content .contacts-form .contact-input:focus{
     background: rgb(12, 12, 12);
 }
-.btn{
+.btns{
     padding: .5rem 1rem;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
-.btn:hover{
+.btns:hover{
     color: white!important;
     background: rgb(15, 71, 15);
 }
