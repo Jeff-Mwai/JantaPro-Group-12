@@ -1,47 +1,101 @@
 
 .main{
-    background-image: url("https://i.imgur.com/1otMWCS.jpg");
+    background-image: url("https://i.imgur.com/bgLeC8e.jpg"); 
     background-size: cover;
 }
-
 #navigation-bar{
     display:flex;
-    background-color:rgb(84, 86, 88);
+    background-color:rgb(8, 65, 8);
     font-size-adjust: 10px;
     color:rgb(255, 255, 255);
     flex-direction: row;
     justify-content: space-evenly;
-    
 }
 
 #navigate{
-    display:flex;
+     text-align: center;
+     
+     
 }
 #navigate ul{
 display: flex;
-padding-right: unset;
+padding-right: -60px;
+
 }
+
+
 #navigate ul li{
     display: flex;
-    padding: 20px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+}
+.active, #navigate ul li:hover{
+    background-color: rgb(12, 143, 34);
+    border-radius: 5px;
+}
+#navigate .fa{
+    margin-right: 8px;
 }
 #navigate ul li a{
     color:white
+        
 }
 #navigate ul li a:hover{
-    color:red;
+    color:rgb(123, 230, 123);
 }
-h1{
-    box-sizing: content-box;
-    height: 73px;
-    width: 180px;
-    border: 1px solid black;
-    box-shadow: 4px 8px slategray;
+
+.sub-navigate-1{
+    display: none;
+}
+#navigate ul li:hover .sub-navigate-1{
+    display: block;
+    position: absolute;
+    background-color:rgb(12, 143, 34);
+    margin-top: 36px;
+    margin-left: -8px;
+    border-radius: 5px;
+}
+#navigate ul li:hover .sub-navigate-1 ul{
+    display: block;
+    margin: 10px;
+}
+#navigate ul li:hover .sub-navigate-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+#navigate ul li:hover .sub-navigate-1 ul li:last-child{
+    border-bottom: none;
+}
+#navigate ul li:hover .sub-navigate-1 ul li a:hover{
+    color:rgb(123, 230, 123);
+}
+#logo img{
+    border-radius: 50%;
     
 }
-.column {
+h1{
+    height: 73px;
+    width: 180px;
+    color: white;
+    
+}
+#column{
     display: flex;
-    width:50%;
+    left: 500;
+    padding: 40px;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 2px white;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+#column td{
+    padding: 5px;
 }
 #row :after{
     display: table;
@@ -50,28 +104,11 @@ h1{
     margin: 49px;
 
 }
-p{
-    position: relative;
-    box-sizing: content-box;
-    width: 500px;
-    border: 1px solid black;
-    font-size: 20px;
-    margin: 40px;
-    left: 25%;
-    box-shadow: 4px 8px slategray;
-
-    
-}
 .one {
     left: 15%;
 
 }
 h2{
-    box-sizing: content-box;
-    height: 70px;
-    width: 150px;
-    border: 1px solid black;
-    box-shadow: 4px 8px slategray;
     text-decoration: none;
     background: rgba(0,0,0,0.5);
 }
